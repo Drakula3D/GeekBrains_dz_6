@@ -20,6 +20,5 @@ public class Main {
         Animal.getInfo();
         Cat.getInfo();
         Dog.getInfo();
-
     }
 }
