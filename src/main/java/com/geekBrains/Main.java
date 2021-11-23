@@ -8,12 +8,12 @@ public class Main {
         Cat catTom = new Cat(100);
         Dog dogArni = new Dog(100, 200);
 
-        cat.run(1);
         dog.run(450);
+        cat.run(1);
         System.out.println();
 
-        dogArni.swim();
         dog.swim(10);
+        dogArni.swim();
         catTom.swim();
         System.out.println();
 
