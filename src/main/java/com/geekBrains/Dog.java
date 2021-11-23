@@ -14,14 +14,14 @@ public class Dog extends Animal {
         realRun();
     }
 
-    @Override
-    public void swim() {
-        realSwim();
-    }
-
     public void run(int run) {
         super.setRun(run);
         realRun();
+    }
+
+    @Override
+    public void swim() {
+        realSwim();
     }
 
     public void swim(int swim) {

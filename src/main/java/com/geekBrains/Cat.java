@@ -14,14 +14,14 @@ public class Cat extends Animal {
         realRun();
     }
 
-    @Override
-    public void swim() {
-        System.out.println("Кот не умеет плавать!");
-    }
-
     public void run(int run) {
         super.setRun(run);
         realRun();
+    }
+
+    @Override
+    public void swim() {
+        System.out.println("Кот не умеет плавать!");
     }
 
     public void realRun() {

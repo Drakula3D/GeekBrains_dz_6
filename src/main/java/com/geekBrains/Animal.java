@@ -20,12 +20,12 @@ public abstract class Animal {
         return run;
     }
 
-    public void setRun(int run) {
-        this.run = run;
-    }
-
     public int getSwim() {
         return swim;
+    }
+
+    public void setRun(int run) {
+        this.run = run;
     }
 
     public void setSwim(int swim) {
